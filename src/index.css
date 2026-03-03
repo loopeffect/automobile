@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background: #0a0a0f;
+}
+
+.alvio-market-root .bg-gray-50 {
+  background: transparent !important;
+}
+
+.alvio-market-root .bg-white {
+  background: rgba(15, 29, 64, 0.72) !important;
+  backdrop-filter: blur(10px);
+}
+
+.alvio-market-root .bg-gray-100,
+.alvio-market-root .bg-gray-200 {
+  background: rgba(11, 22, 48, 0.85) !important;
+}
+
+.alvio-market-root .border-gray-100,
+.alvio-market-root .border-gray-200,
+.alvio-market-root .border-gray-300 {
+  border-color: rgba(59, 130, 246, 0.18) !important;
+}
+
+.alvio-market-root .text-gray-900,
+.alvio-market-root .text-gray-800,
+.alvio-market-root .text-gray-700 {
+  color: #f8fbff !important;
+}
+
+.alvio-market-root .text-gray-600,
+.alvio-market-root .text-gray-500,
+.alvio-market-root .text-gray-400 {
+  color: rgba(191, 219, 254, 0.82) !important;
+}
+
+.alvio-market-root input,
+.alvio-market-root select,
+.alvio-market-root textarea {
+  background: rgba(11, 22, 48, 0.78) !important;
+  border-color: rgba(59, 130, 246, 0.24) !important;
+  color: #f8fbff !important;
+}
+
+.alvio-market-root input::placeholder,
+.alvio-market-root textarea::placeholder {
+  color: rgba(191, 219, 254, 0.45) !important;
+}
+
+.alvio-market-root .hover\:bg-gray-50:hover {
+  background: rgba(59, 130, 246, 0.1) !important;
+}
